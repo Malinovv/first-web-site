@@ -6,7 +6,6 @@
 }
 
 body {
-  width: 100wv;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +20,7 @@ body {
   width: 80vw;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .header {
@@ -89,16 +89,17 @@ body {
 
 .item1 p {
   padding-top: 12px;
-  max-width: 550px;
+  max-width: 85vw;
   flex: 1;
 }
 
 h1 {
-  width: 400px;
+  width: 6em;
   font-size: 48px;
   font-weight: 900;
   line-height: 1;
   text-align: start;
+  flex: 1;
 }
 
 .item1 button {
