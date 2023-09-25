@@ -6,6 +6,7 @@
 }
 
 body {
+  width: 100wv;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,11 +88,13 @@ body {
 
 .item1 p {
   padding-top: 12px;
-  max-width: 550px;
+  max-width: 80vw;
+  flex: 1;
 }
 
 h1 {
-  width: 400px;
+  max-width: 8em;
+  min-width: 3em;
   font-size: 48px;
   font-weight: 900;
   line-height: 1;
@@ -186,7 +189,6 @@ h2 {
 .quote-container {
   width: 100vw;
   min-height: 50vh;
-  padding: 2em 5em;
   background-color: #e5e7eb;
   color: #1f2937;
   display: flex;
